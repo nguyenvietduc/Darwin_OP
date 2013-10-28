@@ -1,4 +1,6 @@
-Darwin_OP
+DARwIn-OP
 =========
 
-The Darwin-OP URDF model for Gazebo
+The DARwIn-OP URDF model for Gazebo 2.0
+
+Install Gazebo 2.0
