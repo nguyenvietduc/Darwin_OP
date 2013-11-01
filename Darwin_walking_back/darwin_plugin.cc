@@ -162,7 +162,7 @@ namespace gazebo
       this->pelvis_r_joint_ = this->model_->GetJoint("j_pelvis_r");
 
       this->last_update_time_ = this->model_->GetWorld()->GetSimTime();
-      this->update_connection_ = event::Events::ConnectWorldUpdateStart(
+      this->update_connection_ = event::Events::ConnectWorldUpdateBegin(
         boost::bind(&PID1Joints::UpdatePID, this));
     }
     void UpdatePID()
